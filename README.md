@@ -1,4 +1,4 @@
-# CS-340-Client-Serve-Development
+# CS-340-Client-Server-Development
 
 
 When I think about writing maintainable, readable, and adaptable programs, I think about structure first. If the structure is messy, everything else becomes harder to manage. With the CRUD Python module, I made a conscious effort to separate the database logic from the dashboard itself. Instead of mixing MongoDB queries directly into the notebook, I created a separate module that handled Create, Read, Update, and Delete operations. That made the code easier to follow and easier to fix if something broke. If I needed to change how the database was accessed, I only had to adjust the CRUD file instead of digging through the entire dashboard.
